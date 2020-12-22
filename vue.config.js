@@ -12,8 +12,8 @@ module.exports = {
         }
     },
      publicPath: process.env.NODE_ENV === 'production'
-    ? '/'
-    : '/',
+    ? '/lego/'
+    : './',
     outputDir:'dist',
-    assetsDir:'static'
+    assetsDir:'static',
 }

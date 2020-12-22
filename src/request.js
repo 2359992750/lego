@@ -8,9 +8,9 @@ var host;
 // 通过NODE_ENV 判断当前环境是生产环境(production)还是开发环境(development) 自动切换不同域名
 // 暂时开发环境和生产环境  所以域名暂时一样 
 if (process.env.NODE_ENV == "development") {
-    host = "http://shop.bufantec.com/bufan";
+    host = "https://shop.bufantec.com/bufan";
 } else {
-    host = "http://shop.bufantec.com/bufan";
+    host = "https://shop.bufantec.com/bufan";
 }
 
 // 创建axios实例 

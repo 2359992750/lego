@@ -1,0 +1,36 @@
+import Vue from 'vue'
+import { Loading, ContactCard, Toast, Field, Area, AddressEdit, AddressList, SubmitBar, Checkbox, Button, Card, SwipeCell, Sku, GoodsActionIcon, GoodsActionButton, GoodsAction, Cell, Popup, ShareSheet, Popover, Sidebar, SidebarItem, Search, Swipe, SwipeItem, Lazyload, Grid, GridItem, Tabbar, TabbarItem, NavBar, Icon, Tab, Tabs, List } from 'vant';
+Vue.use(SwipeCell);
+Vue.use(Sku);
+Vue.use(GoodsAction);
+Vue.use(GoodsActionButton);
+Vue.use(GoodsActionIcon);
+Vue.use(Cell);
+Vue.use(Popup);
+Vue.use(ShareSheet);
+Vue.use(Popover);
+Vue.use(Sidebar);
+Vue.use(SidebarItem);
+Vue.use(List);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Icon);
+Vue.use(NavBar);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Search)
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Card);
+Vue.use(Button);
+Vue.use(Checkbox)
+Vue.use(SubmitBar);
+Vue.use(AddressList);
+Vue.use(AddressEdit);
+Vue.use(Area);
+Vue.use(Field);
+Vue.use(ContactCard);
+Vue.use(Loading);
+Vue.use(Lazyload);

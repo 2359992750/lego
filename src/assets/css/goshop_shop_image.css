@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shop_image {
+    width: 100%;
+}
+
+.shop_image p {
+    width: 100%;
+}
+
+.shop_image p img {
+    display: block;
+    width: 100%;
+}

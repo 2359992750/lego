@@ -131,7 +131,6 @@ const routes = [{
 
 const router = new VueRouter({
     mode: 'history',
-    base: '/qinming-mall-app/',
     routes
 })
 
